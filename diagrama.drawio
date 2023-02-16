@@ -1,32 +1,37 @@
 <mxfile host="65bd71144e">
     <diagram id="dkAb66VynEKjwiJ2JSHo" name="Página-1">
-        <mxGraphModel dx="662" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="530" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" parent="1" source="2" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
-                    <mxGeometry x="280" y="30" width="120" height="80" as="geometry"/>
+                <mxCell id="2" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+                    <mxGeometry x="205" y="10" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="C" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
-                    <mxGeometry x="280" y="140" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="7" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="6">
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="5">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="°F=1.8C+32&lt;br&gt;°K=°C+273.15" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
-                    <mxGeometry x="280" y="220" width="120" height="110" as="geometry"/>
+                <mxCell id="3" value="A=1234" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="205" y="130" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="6" target="8">
+                <mxCell id="7" value="" style="edgeStyle=none;html=1;" parent="1" source="5" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="°F&lt;br&gt;°C&lt;br&gt;°K" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
-                    <mxGeometry x="280" y="370" width="120" height="80" as="geometry"/>
+                <mxCell id="5" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;c4&lt;/span&gt; = (&lt;span style=&quot;color: #4fc1ff;&quot;&gt;A&lt;/span&gt;%&lt;span style=&quot;color: #b5cea8;&quot;&gt;10&lt;/span&gt;) * &lt;span style=&quot;color: #b5cea8;&quot;&gt;1000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;pe&lt;/span&gt; = &lt;span style=&quot;color: #4fc1ff;&quot;&gt;A&lt;/span&gt;//&lt;span style=&quot;color: #b5cea8;&quot;&gt;10&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;c3&lt;/span&gt; = (&lt;span style=&quot;color: #9cdcfe;&quot;&gt;pe&lt;/span&gt;%&lt;span style=&quot;color: #b5cea8;&quot;&gt;10&lt;/span&gt;) * &lt;span style=&quot;color: #b5cea8;&quot;&gt;100&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;pe&lt;/span&gt; = &lt;span style=&quot;color: #9cdcfe;&quot;&gt;pe&lt;/span&gt;//&lt;span style=&quot;color: #b5cea8;&quot;&gt;10&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;c2&lt;/span&gt; = (&lt;span style=&quot;color: #9cdcfe;&quot;&gt;pe&lt;/span&gt;%&lt;span style=&quot;color: #b5cea8;&quot;&gt;10&lt;/span&gt;) * &lt;span style=&quot;color: #b5cea8;&quot;&gt;10&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;c1&lt;/span&gt; = &lt;span style=&quot;color: #9cdcfe;&quot;&gt;pe&lt;/span&gt; // &lt;span style=&quot;color: #b5cea8;&quot;&gt;10&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;nj&lt;/span&gt; = &lt;span style=&quot;color: #9cdcfe;&quot;&gt;c4&lt;/span&gt; + &lt;span style=&quot;color: #9cdcfe;&quot;&gt;c3&lt;/span&gt; + &lt;span style=&quot;color: #9cdcfe;&quot;&gt;c2&lt;/span&gt; + &lt;span style=&quot;color: #9cdcfe;&quot;&gt;c1&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="220" width="270" height="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="FIN" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
-                    <mxGeometry x="280" y="505" width="120" height="80" as="geometry"/>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="265" y="570" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="NJ" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="205" y="450" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="570" width="120" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
